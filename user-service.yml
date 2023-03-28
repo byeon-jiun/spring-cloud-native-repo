@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQAEPL3BJJs3jrmaPps4p96ZXr7Gb3GLVvf+bJMD9IuGwR/wKtRWF47KwWwrY4KYxwlQr7tRsFlH2NgxPZu1mXGG++WGLqjPSh0q5M/HNYRHxGP+6wqUX8z9oTm6+h4XqweKr8vq2LarGHaNIP5tX9u28+9B1/ySivfUeG7+30Ah558V0UIouxeKVRr1z97j29e0w7e3kYz6j9PL3HSrSN9qbydy1NIYToQtLnkq+VJv7D9Fg9/uBZpwA58Tuxkes0xbaPK+q5w1ecg/Yu8XQcridsm4vSCSbCVhBNkxF4OPyqYLPCYtgrGyCJq2UPYrbLydfsDu/E1l/bz/mEwudjMO2bh2H0cFWNyyIqcFKExUXo9H5tCDY05zIm88pc5vn8U='
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+gateway:
+  ip: 127.0.0.1
